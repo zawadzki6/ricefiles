@@ -9,6 +9,6 @@ case "$chosen" in
     "  Reboot")    bash /home/zawadzki/rice/power/reboot.sh ;;
     "  Logout")    bash /home/zawadzki/rice/power/logout.sh ;;
     "󰤄 Suspend")   systemctl suspend ;;
-    "  Lock")      loginctl lock-session ;;
+    "  Lock")      bash /home/zawadzki/rice/lock.sh ;;
     *)             exit 1 ;;
 esac
