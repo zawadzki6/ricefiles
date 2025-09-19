@@ -8,4 +8,4 @@ else
 fi
 
 echo "Starting process..."
-polybar -c /home/zawadzki/rice/polybar.ini &
+polybar -c ~/rice/polybar.ini &
