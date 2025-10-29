@@ -8,7 +8,7 @@ case "$chosen" in
     "⏻ Shutdown")  bash /home/zawadzki/rice/power/shutdown.sh ;;
     "  Reboot")    bash /home/zawadzki/rice/power/reboot.sh ;;
     "  Logout")    bash /home/zawadzki/rice/power/logout.sh ;;
-    "󰤄 Suspend")   systemctl suspend ;;
+    "󰤄 Suspend")   bash /home/zawadzki/rice/lock.sh && systemctl suspend ;;
     "  Lock")      bash /home/zawadzki/rice/lock.sh ;;
     *)             exit 1 ;;
 esac
