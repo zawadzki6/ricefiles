@@ -16,7 +16,7 @@ config_file="/tmp/polybar_cava_config"
 echo "
 [general]
 framerate = 120
-bars = 48
+bars = 32
 bar_width = 1
 
 [input]
@@ -28,6 +28,8 @@ method = raw
 raw_target = /dev/stdout
 data_format = ascii
 ascii_max_range = 7
+channels = mono
+mono_options = left
 " > $config_file
 
 # read stdout from cava
