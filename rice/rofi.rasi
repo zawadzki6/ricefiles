@@ -1,6 +1,6 @@
 
 * {
-    font:   "Segoe UI 12";
+    font:   "IBM Plex Sans 12";
 
     bg1:     #121212;
     bg0:     #1E1E1E;
